@@ -1,0 +1,21 @@
+package com.CookieTesting;
+
+import java.util.Set;
+
+import org.openqa.selenium.Cookie;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class FaceBook {
+
+	public static void main(String[] args) 
+	{
+		FirefoxDriver driver = new FirefoxDriver();
+		driver.get("http://facebook.com");
+		
+		Set<Cookie>MyCookies=driver.manage().getCookies();
+		
+		System.out.println(MyCookies.size());
+
+	}
+
+}

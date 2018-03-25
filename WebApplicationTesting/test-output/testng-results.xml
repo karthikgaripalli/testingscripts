@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50670" started-at="2018-03-24T16:22:43Z" finished-at="2018-03-24T16:23:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="50670" started-at="2018-03-24T16:22:43Z" finished-at="2018-03-24T16:23:33Z">
+      <class name="com.DBTest.NewToursUserRegistrationTest">
+        <test-method status="PASS" signature="ApplLaunch()[pri:0, instance:com.DBTest.NewToursUserRegistrationTest@19c472]" name="ApplLaunch" is-config="true" duration-ms="8958" started-at="2018-03-24T21:52:43Z" finished-at="2018-03-24T21:52:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplLaunch -->
+        <test-method status="PASS" signature="UserRegistration()[pri:0, instance:com.DBTest.NewToursUserRegistrationTest@19c472]" name="UserRegistration" duration-ms="41671" started-at="2018-03-24T21:52:52Z" finished-at="2018-03-24T21:53:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserRegistration -->
+      </class> <!-- com.DBTest.NewToursUserRegistrationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,22 @@
+package com.MultipleWindow;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Gmail_Help {
+
+	public static void main(String[] args)
+	
+	{
+	
+		FirefoxDriver driver = new FirefoxDriver();
+		driver.get("http://gmail.com");
+		
+		String parent=driver.getWindowHandle();
+		
+		System.out.println(parent);
+		
+		
+
+	}
+
+}

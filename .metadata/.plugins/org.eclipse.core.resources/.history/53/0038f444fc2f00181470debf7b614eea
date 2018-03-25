@@ -1,0 +1,6 @@
+package com.Inhert;
+
+public class Constants 
+{
+	static FirefoxDriver driver = null;
+}
